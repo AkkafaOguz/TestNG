@@ -17,7 +17,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class C03 {
+public class C03_SoftAssert {
 
 //    Yeni bir Class Olusturun : D10_SoftAssertTest
 // 1. “http://zero.webappsecurity.com/” Adresine gidin
