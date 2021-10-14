@@ -40,7 +40,7 @@ public class Project02 extends TestBase {
 
         WebElement emoji = driver.findElement(By.xpath("(//span[@class='mdl-tabs__ripple-container mdl-js-ripple-effect'])[2]"));
         emoji.click();
-        
+
 
         // WebDriverWait webDriverWait = new WebDriverWait(driver, 30);
         // webDriverWait.until(ExpectedConditions.elementToBeClickable(emoji)).click();
