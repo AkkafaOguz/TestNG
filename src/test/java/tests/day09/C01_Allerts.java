@@ -30,7 +30,7 @@ public class C01_Allerts {
 
 
     //**********************************************
-    //SoftAssert softAssert = new SoftAssert();
+    // SoftAssert softAssert = new SoftAssert();
     // Bu sekilde olusturmak saglikli degil, methodlari tek tek calistirmamizin onune gecer.
     //**********************************************
 
@@ -41,6 +41,17 @@ public class C01_Allerts {
     // "import static org.testng.Assert.*;"
     // yaparak class'taki methodlari import ettik.
     //**********************************************
+
+
+
+    //**********************************************
+    // 2. Way to handle allert
+    // WebDriverWait w = new WebDriverWait(driver, 10);
+    // Alert alert = w.until(ExpectedConditions.alertIsPresent());
+    // Thread.sleep(2000);
+    // alert.accept();
+    //**********************************************
+
 
 
     @BeforeClass
