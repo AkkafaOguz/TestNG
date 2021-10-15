@@ -64,9 +64,5 @@ public class Odev extends TestBase {
         driver.switchTo().window(firstPageHandle);
         Thread.sleep(3000);
 
-
-
-
-
     }
 }
