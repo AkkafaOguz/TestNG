@@ -23,6 +23,13 @@ public class C02_DropDown {
 //4.Tüm dropdown değerleri(value) yazdırın
 //5. Dropdown’un boyutunu bulun, Dropdown’da 4 öğe varsa konsolda True , degilse False yazdırın.
 
+
+    // *************************************************
+    // Dropdown'da getFirstSelectedOption() methodunu kullanirken dikkatli ol. Eger HTML kodu uzerinde "select=selected" attribute ve value'su secilen option kodu icin gozukmuyorsa
+    // bu method calismaz. Sectigin option'i dogrulamak icin manuel olarak HTML kodunda secenekler secildiginde dinamik olarak degisen satiri bulup locate ederek sonrasinda bunun uzerinden assertion uygularsin.
+    // *************************************************
+
+
     WebDriver driver;
 
     @BeforeClass
